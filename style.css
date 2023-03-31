@@ -7,6 +7,7 @@
 
 body {
     background-color: #F3F3EF;
+    font-family: 'Alkatra', cursive;
 }
 
 header {
@@ -17,8 +18,8 @@ header {
 
 
 .header-logo{
-    height: 131px;
-    width: 311px;
+    height: 262px;
+    width: 622px;
 }
 
 nav ul {
@@ -32,7 +33,7 @@ li {
     list-style: none;
     display: inline-block;
     padding: 30px 20px;
-    font-size: 1.2rem;
+    font-size: 2.0rem;
 }
 
 .full-width-image {
@@ -46,15 +47,17 @@ li {
     background-color: white;
     margin: -20vh auto 0 auto;
     width: 500px;
-    height: 500px;
+    height: 550px;
     border-radius: 20%;
     padding: 30px 50px;
-    
 }
 
 .main-section-button {
     display: block;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
+    height: 80px;
+    width: 135px;
+    font-size: 1.25rem;
 }
 
 .main-section-logo {
@@ -69,9 +72,39 @@ li {
     background-color: #AAD293;
     border: none;
     padding: 10px;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Alkatra', cursive;
+}
+
+.apply-nav-button {
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 130px;
+    width: 235px;
+    font-size: 2.5rem;
 }
 
 h1 {
     text-align: center;
     font-size: 2rem;
+}
+
+p {
+    font-family: 'Montserrat'
+}
+
+
+.navbarStyle {
+    margin-right: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.spanStyle {
+    padding-top: 50px;
+    margin: 25px;
+    font-size: 3.2rem;
 }
