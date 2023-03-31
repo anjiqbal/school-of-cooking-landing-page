@@ -7,6 +7,8 @@ header {
     justify-content: space-between;
 }
 
+
+
 .header-logo{
     height: 131px;
     width: 311px;
@@ -23,6 +25,7 @@ li {
     list-style: none;
     display: inline-block;
     padding: 30px 20px;
+    font-size: 1.2rem;
 }
 
 .full-width-image {
@@ -38,7 +41,8 @@ li {
     width: 500px;
     height: 500px;
     border-radius: 20%;
-   z-index: 1;
+    padding: 20px;
+    
 }
 
 .main-section-button {
