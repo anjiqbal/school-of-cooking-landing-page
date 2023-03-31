@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
 body {
     background-color: #F3F3EF;
 }
@@ -41,10 +48,30 @@ li {
     width: 500px;
     height: 500px;
     border-radius: 20%;
-    padding: 20px;
+    padding: 30px 50px;
     
 }
 
 .main-section-button {
-    margin: 0 auto 0 auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.main-section-logo {
+    height: 40%;
+    width: 45%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+}
+
+.apply-button {
+    background-color: #AAD293;
+    border: none;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
 }
