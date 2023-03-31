@@ -77,6 +77,10 @@ li {
     font-family: 'Alkatra', cursive;
 }
 
+.apply-button:hover {
+    opacity: 0.65;
+}
+
 .apply-nav-button {
     display: block;
     margin: 0 auto 0 auto;
@@ -113,6 +117,10 @@ p {
     font-size: 2.5rem;
 }
 
+.spanStyle:hover {
+    opacity: 0.65;
+}
+
 .about-section {
     background-color: white;
     padding: 30px 50px;
@@ -121,4 +129,25 @@ p {
     margin: 70px  auto;
     border-radius: 20%;
 
+}
+
+
+.date-section-image {
+    opacity: 0.9;
+}
+
+.date-section {
+    
+    position: relative;
+    background-color: white;
+    margin: -60vh auto 0 auto;
+    width: 300px;
+    height: 450px;
+    border-radius: 20%;
+    padding: 30px 50px;
+}
+
+.date-section-div {
+    display: flex;
+    justify-content: space-evenly;
 }
