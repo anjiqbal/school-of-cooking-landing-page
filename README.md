@@ -7,7 +7,7 @@ A landing page for a cooking bootcamp.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/anjiqbal/school-of-cooking-landing-page/blob/main/images/screenshot.png)
 
 
 ## Motivation
